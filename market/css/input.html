@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="input.css">
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" placeholder="Search..." />
+        <i class="fas fa-search"></i>
+    </div>
+    
+</body>
+</html>
+
+
+.search-container {
+    position: relative;
+    display: inline-block;
+}
+
+input[type="text"] {
+    padding: 10px 30px; /* Add padding to make space for the icon */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.fas.fa-search {
+    position: absolute;
+    left: 10px; /* Adjust as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa; /* Change color as needed */
+}
